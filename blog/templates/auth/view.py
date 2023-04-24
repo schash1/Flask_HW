@@ -6,7 +6,7 @@ from blog.views.auth import auth_app
 auth = Blueprint("auth", __name__, url_prefix="/auth", static_folder="../static")
 
 
-@auth_app.route("/login/", methods=["GET", "POST"], endpoint="login")
+@auth_app.route("/login/", methods=["GET", "POST"], endpoint="index")
 def login():
     if request.method == "GET":
         return render_template("login.html")
