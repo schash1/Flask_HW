@@ -32,7 +32,6 @@ PyNaCl==1.5.0
 pyperclip==1.8.2
 pyrsistent==0.19.3
 python-dotenv==0.21.1
-pywin32==306
 PyYAML==5.4.1
 redis==4.5.4
 requests==2.28.2
@@ -41,6 +40,5 @@ SQLAlchemy==2.0.9
 texttable==1.6.7
 typing_extensions==4.5.0
 urllib3==1.26.15
-vboxapi==1.0
 websocket-client==0.59.0
 Werkzeug==2.2.3
