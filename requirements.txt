@@ -42,3 +42,6 @@ typing_extensions==4.5.0
 urllib3==1.26.15
 websocket-client==0.59.0
 Werkzeug==2.2.3
+ComboJSONAPI==1.0.5
+apispec==2.0.2
+PyYAML==5.3.1

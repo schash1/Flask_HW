@@ -8,6 +8,7 @@ from flask_migrate import Migrate
 from blog.security import flask_bcrypt
 from blog.views.authors import authors_app
 from blog.admin import admin
+from blog.api import init_api
 
 
 app = Flask(__name__)
@@ -25,6 +26,7 @@ migrate = Migrate(app, db, compare_type=True)
 flask_bcrypt.init_app(app)
 app.register_blueprint(authors_app, url_prefix="/authors")
 admin.init_app(app)
+api = init_api(app)
 
 
 @app.route("/")
